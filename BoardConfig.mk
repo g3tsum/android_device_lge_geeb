@@ -138,3 +138,5 @@ BOARD_CHARGER_ENABLE_SUSPEND := true
 USE_DEVICE_SPECIFIC_CAMERA := true
 
 -include vendor/lge/gee/BoardConfigVendor.mk
+
+BOARD_HARDWARE_CLASS := device/lge/geeb/cmhw/
