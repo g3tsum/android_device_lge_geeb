@@ -39,9 +39,6 @@ BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_CMDLINE := console=ttyHSL0,115200,n8 androidboot.hardware=geeb lpj=67677
 BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01600000
 
-TARGET_KERNEL_CONFIG := geeb_defconfig
-TARGET_KERNEL_SOURCE := kernel/lge/geeb
-
 TARGET_OTA_ASSERT_DEVICE := mako,geeb,gee_a,e970,gee,geebus
 
 BOARD_USES_ALSA_AUDIO:= true
